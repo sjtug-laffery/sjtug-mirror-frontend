@@ -22,5 +22,5 @@ deploy:
   file: dists.zip
   on:
     repo: sjtug/sjtug-mirror-frontend
-    branch: vue2
+    branch: master
     tags: true
