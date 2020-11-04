@@ -3,7 +3,7 @@ import useData from './utils';
 import MirrorList from './MirrorList';
 
 function App() {
-  const { data: summary } = useData("/lug/v1/manager/summary");
+  const { data: summary } = useData("https://mirrors.sjtug.sjtu.edu.cn/lug/v1/manager/summary");
   if (summary) {
     return (
       <div className="container my-3">
